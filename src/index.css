@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Bdoza Design System - Professional Customs Clearance Theme
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 215 25% 27%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 27%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 27%;
+
+    /* Bdoza Blue - Professional and trustworthy */
+    --primary: 217 91% 25%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 217 91% 35%;
+    --primary-dark: 217 91% 20%;
+
+    /* Bdoza Orange - Call-to-action accent */
+    --secondary: 22 95% 55%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 22 95% 65%;
+    --secondary-dark: 22 95% 45%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 22 95% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 217 91% 25%;
+
+    --radius: 0.75rem;
+
+    /* Custom gradients for Bdoza */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-light)));
+    
+    /* Professional shadows */
+    --shadow-soft: 0 2px 8px 0 hsl(var(--primary) / 0.1);
+    --shadow-medium: 0 8px 25px -8px hsl(var(--primary) / 0.2);
+    --shadow-strong: 0 25px 50px -12px hsl(var(--primary) / 0.25);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 215 28% 17%;
+    --foreground: 0 0% 95%;
+
+    --card: 215 28% 17%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 215 28% 17%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 217 91% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 217 91% 45%;
+    --primary-dark: 217 91% 25%;
+
+    --secondary: 22 95% 55%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 22 95% 65%;
+    --secondary-dark: 22 95% 45%;
+
+    --muted: 215 28% 25%;
+    --muted-foreground: 215 16% 65%;
+
+    --accent: 22 95% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 215 28% 25%;
+    --input: 215 28% 25%;
+    --ring: 217 91% 35%;
+
+    --sidebar-background: 215 28% 17%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 217 91% 35%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 215 28% 25%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 215 28% 25%;
+    --sidebar-ring: 217 91% 35%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
