@@ -12,7 +12,7 @@ const Footer = () => {
 
         {/* Email */}
         <p>
-          Email Address: <span className="font-semibold">info@bdoza.com</span>
+          Email Address: <a href="mailto:info@bdoza.com" className="font-semibold hover:text-blue-600 transition-colors">info@bdoza.com</a>
         </p>
 
         {/* Company Info */}

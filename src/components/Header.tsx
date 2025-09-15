@@ -83,10 +83,18 @@ const Header = () => {
           {/* Desktop: Social Media Icons on Right */}
           <div className="flex-1 hidden md:flex justify-end ">
             <div className="flex gap-4 text-gray-800 mr-8 md:mr-36">
-              <MapPin className="w-6 h-6 cursor-pointer hover:text-gray-600" />
-              <Facebook className="w-6 h-6 cursor-pointer hover:text-gray-600" />
-              <Instagram className="w-6 h-6 cursor-pointer hover:text-gray-600" />
-              <Twitter className="w-6 h-6 cursor-pointer hover:text-gray-600" />
+              <a href="https://maps.app.goo.gl/6d6TkHUCDyeMUmjf9?g_st=aw" target="_blank" rel="noopener noreferrer">
+                <MapPin className="w-6 h-6 cursor-pointer hover:text-gray-600" />
+              </a>
+              <a href="https://www.facebook.com/share/19QY13EJVY/" target="_blank" rel="noopener noreferrer">
+                <Facebook className="w-6 h-6 cursor-pointer hover:text-gray-600" />
+              </a>
+              <a href="https://www.instagram.com/bdozaco?igsh=MXhwOXVzcWVhNWFnbA==" target="_blank" rel="noopener noreferrer">
+                <Instagram className="w-6 h-6 cursor-pointer hover:text-gray-600" />
+              </a>
+              <a href="https://x.com/bdozaco" target="_blank" rel="noopener noreferrer">
+                <Twitter className="w-6 h-6 cursor-pointer hover:text-gray-600" />
+              </a>
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@ const HeroSection = () => {
             40+ Years of Excellence in Customs Clearance
           </h2>
           {/* CTA Button */}
-          \<CTA />
+          <CTA />
         </div>
       </div>
     </section>
